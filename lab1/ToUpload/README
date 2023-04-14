@@ -1,0 +1,21 @@
+Lab1 Readme
+
+and2.vhd is the implamentation of my AND2 gate.
+and2_tb.vhd is the testbench for AND2 gate. To run the testbench, run "run -all", we can get the wave changes in the first 200 ns.
+
+mux5.vhd is the implamentation of my MUX5.
+mux5_tb.vhd is the testbench for MUX5. To run the testbench, run "run -all", we can get the wave changes in the first 200 ns.
+
+mux64.vhd is the implamentation of my MUX64.
+mux64_tb.vhd is the testbench for MUX64. To run the testbench, run "run -all", we can get the wave changes in the first 200 ns.
+
+shiftleft2.vhd is the implamentation of my ShiftLeft.
+shiftleft2_tb.vhd is the testbench for ShiftLeft. To run the testbench, run "run -all", we can get the wave changes.
+
+signextend.vhd is the implamentation of my SignedExtend.
+signextend_tb.vhd is the testbench for SignedExtend. To run the testbench, run "run -all", we can get the wave changes in the first 200 ns.
+
+pc.vhd is the implamentation of my PC.
+pc_tb.vhd is the testbench for PC. To run the testbench, run "run 400", we can get the wave changes of all different situations.
+
+EE_126_Lab_1_report.pdf is my report.

@@ -1,0 +1,189 @@
+/h/kyang10/EE126/lab2/half_adder_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/half_adder_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER_TB
+-- Compiling architecture tb of HALF_ADDER_TB
+-- Loading entity HALF_ADDER
+
+} {} {}} /h/kyang10/EE126/lab2/deme_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/deme_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DMEM_tb
+-- Compiling architecture tb of DMEM_tb
+
+} {} {}} /h/kyang10/EE126/lab2/alucontrol_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/alucontrol_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl_tb
+-- Compiling architecture tb of ALUControl_tb
+
+} {} {}} /h/kyang10/EE126/lab2/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/full_adder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FULL_ADDER
+-- Compiling architecture structural_example of FULL_ADDER
+
+} {} {}} /h/kyang10/EE126/lab2/alu.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/alu.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+-- Loading entity ADDER64
+
+} {} {}} /h/kyang10/EE126/lab2/adder64.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/adder64.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADDER64
+-- Compiling architecture structural_example of ADDER64
+
+} {} {}} /h/kyang10/EE126/lab2/alucontrol.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/alucontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl
+-- Compiling architecture behavioral of ALUControl
+
+} {} {}} /h/kyang10/EE126/lab2/cpucontrol_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/cpucontrol_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CPUControl_tb
+-- Compiling architecture tb of CPUControl_tb
+
+} {} {}} /h/kyang10/EE126/lab2/add_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/add_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADD_tb
+-- Compiling architecture tb of ADD_tb
+
+} {} {}} /h/kyang10/EE126/lab2/full_adder_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/full_adder_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FULL_ADDER_tb
+-- Compiling architecture tb of FULL_ADDER_TB
+-- Loading entity FULL_ADDER
+
+} {} {}} /h/kyang10/EE126/lab2/alu_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/alu_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_tb
+-- Compiling architecture tb of ALU_tb
+
+} {} {}} /h/kyang10/EE126/lab2/adder64_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/adder64_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADDER64_tb
+-- Compiling architecture tb of ADDER64_tb
+
+} {} {}} /h/kyang10/EE126/lab2/imem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/imem.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab2/registers.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/registers.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers
+-- Compiling architecture behavioral of registers
+
+} {} {}} /h/kyang10/EE126/lab2/add.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/add.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADD
+-- Compiling architecture structural_example of ADD
+-- Loading entity ADDER64
+
+} {} {}} /h/kyang10/EE126/lab2/cpucontrol.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/cpucontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CPUControl
+-- Compiling architecture behavioral of CPUControl
+
+} {} {}} /h/kyang10/EE126/lab2/half_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/half_adder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER
+-- Compiling architecture structural_example of HALF_ADDER
+-- Compiling architecture structural_example1 of HALF_ADDER
+-- Loading entity HALF_ADDER
+-- Compiling architecture structural_example2 of HALF_ADDER
+-- Loading entity HALF_ADDER
+-- Loading entity XOR_GATE
+
+} {} {}} /h/kyang10/EE126/lab2/xorgate.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/xorgate.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity XOR_GATE
+-- Compiling architecture data_flow_example of XOR_GATE
+-- Compiling architecture behavioural_example of XOR_GATE
+-- Loading entity XOR_GATE
+
+} {} {}} /h/kyang10/EE126/lab2/dmem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/dmem.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DMEM
+-- Compiling architecture behavioral of DMEM
+
+} {} {}} /h/kyang10/EE126/lab2/imem_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/imem_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM_tb
+-- Compiling architecture tb of IMEM_tb
+
+} {} {}} /h/kyang10/EE126/lab2/registers_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab2/registers_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers_tb
+-- Compiling architecture tb of registers_tb
+
+} {} {}}

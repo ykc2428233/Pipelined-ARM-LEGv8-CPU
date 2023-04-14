@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY and2 IS
+  PORT(
+       in0 : IN STD_LOGIC_vector (7 downto 0);
+       in1 : IN STD_LOGIC;
+       output : OUT STD_LOGIC
+  );
+END and2;
+
+ARCHITECTURE and2_behavior OF and2 IS
+BEGIN
+  in0 <= "xFF";
+output <= in0 AND in1;
+END and2_behavior;

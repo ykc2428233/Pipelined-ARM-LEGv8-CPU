@@ -1,0 +1,251 @@
+/h/kyang10/EE126/lab3/signextend_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/signextend_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend_tb
+-- Compiling architecture tb of SignExtend_tb
+
+} {} {}} /h/kyang10/EE126/lab3/singlecyclecpu_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/singlecyclecpu_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SingleCycleCPU_tb
+-- Compiling architecture tb of SingleCycleCPU_tb
+-- Loading entity SingleCycleCPU
+
+} {} {}} /h/kyang10/EE126/lab3/mux5.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/mux5.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX5
+-- Compiling architecture behavioral of MUX5
+
+} {} {}} /h/kyang10/EE126/lab3/alu_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/alu_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_tb
+-- Compiling architecture tb of ALU_tb
+
+} {} {}} /h/kyang10/EE126/lab3/imem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/imem.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab3/imem_ldstr.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/imem_ldstr.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab3/alucontrol_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/alucontrol_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl_tb
+-- Compiling architecture tb of ALUControl_tb
+
+} {} {}} /h/kyang10/EE126/lab3/cpucontrol.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/cpucontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CPUControl
+-- Compiling architecture behavioral of CPUControl
+
+} {} {}} /h/kyang10/EE126/lab3/adder64.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/adder64.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADDER64
+-- Compiling architecture structural_example of ADDER64
+
+} {} {}} /h/kyang10/EE126/lab3/zeromux.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/zeromux.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUXZero
+-- Compiling architecture behavioral of MUXZero
+
+} {} {}} /h/kyang10/EE126/lab3/singlecyclecpu.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/singlecyclecpu.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SingleCycleCPU
+-- Compiling architecture SingleCycleCPU_arch of SingleCycleCPU
+-- Loading entity PC
+-- Loading entity MUX64
+-- Loading entity ADDER64
+-- Loading entity ShiftLeft2
+-- Loading entity SignExtend
+-- Loading entity ALUControl
+-- Loading entity CPUControl
+-- Loading entity MUX5
+-- Loading entity registers
+-- Loading entity DMEM
+-- Loading entity IMEM
+-- Loading entity ALU
+-- Loading entity MUXZero
+
+} {} {}} /h/kyang10/EE126/lab3/half_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/half_adder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER
+-- Compiling architecture structural_example of HALF_ADDER
+-- Compiling architecture structural_example1 of HALF_ADDER
+-- Loading entity HALF_ADDER
+-- Compiling architecture structural_example2 of HALF_ADDER
+-- Loading entity HALF_ADDER
+-- Loading entity XOR_GATE
+
+} {} {}} /h/kyang10/EE126/lab3/alu.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/alu.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+-- Loading entity ADDER64
+
+} {} {}} /h/kyang10/EE126/lab3/dmem_le.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/dmem_le.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DMEM
+-- Compiling architecture behavioral of DMEM
+
+} {} {}} /h/kyang10/EE126/lab3/dmem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/dmem.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DMEM
+-- Compiling architecture behavioral of DMEM
+
+} {} {}} /h/kyang10/EE126/lab3/and2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/and2.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND2
+-- Compiling architecture dataflow of AND2
+
+} {} {}} /h/kyang10/EE126/lab3/imem_comp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/imem_comp.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab3/imem_p1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/imem_p1.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab3/registers.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/registers.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers
+-- Compiling architecture behavioral of registers
+
+} {} {}} /h/kyang10/EE126/lab3/add.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/add.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADD
+-- Compiling architecture structural_example of ADD
+-- Loading entity ADDER64
+
+} {} {}} /h/kyang10/EE126/lab3/signextend.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/signextend.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend
+-- Compiling architecture behavioral of SignExtend
+
+} {} {}} /h/kyang10/EE126/lab3/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/full_adder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FULL_ADDER
+-- Compiling architecture structural_example of FULL_ADDER
+
+} {} {}} /h/kyang10/EE126/lab3/xorgate.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/xorgate.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity XOR_GATE
+-- Compiling architecture data_flow_example of XOR_GATE
+-- Compiling architecture behavioural_example of XOR_GATE
+-- Loading entity XOR_GATE
+
+} {} {}} /h/kyang10/EE126/lab3/alucontrol.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/alucontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl
+-- Compiling architecture behavioral of ALUControl
+
+} {} {}} /h/kyang10/EE126/lab3/pc.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/pc.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC
+-- Compiling architecture behavioral of PC
+
+} {} {}} /h/kyang10/EE126/lab3/shiftleft2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/shiftleft2.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ShiftLeft2
+-- Compiling architecture dataflow of ShiftLeft2
+
+} {} {}} /h/kyang10/EE126/lab3/mux64.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab3/mux64.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX64
+-- Compiling architecture behavioral of MUX64
+
+} {} {}}

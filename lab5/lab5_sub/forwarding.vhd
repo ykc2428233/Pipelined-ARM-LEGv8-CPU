@@ -1,0 +1,38 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY FORWARDING IS
+PORT(
+  Rn			: IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+  Rm			: IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+  --Rd			: IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+  EXMEM_Rd		: IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+  MEMWB_Rd		: IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+  EXMEM_RegWrite	: IN STD_LOGIC;
+  MEMWB_RegWrite	: IN STD_LOGIC;
+  ForwardA		: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+  ForwardB		: OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+);
+END FORWARDING;
+
+ARCHITECTURE behavioral OF FORWARDING IS
+BEGIN
+  PROCESS(Rn, Rm, EXMEM_Rd, MEMWB_Rd, EXMEM_RegWrite, MEMWB_RegWrite)
+  BEGIN
+    IF (EXMEM_RegWrite = '1' AND EXMEM_Rd /= "11111" AND EXMEM_Rd = Rn) THEN
+      ForwardA <= "10";
+    ELSIF (MEMWB_RegWrite = '1' AND MEMWB_Rd /= "11111" AND MEMWB_Rd = Rn) THEN
+      ForwardA <= "01";
+    ELSE
+      ForwardA <= "00";  
+    END IF;
+
+    IF (EXMEM_RegWrite = '1' AND EXMEM_Rd /= "11111" AND EXMEM_Rd = Rm) THEN
+      ForwardB <= "10";
+    ELSIF (MEMWB_RegWrite = '1' AND MEMWB_Rd /= "11111" AND MEMWB_Rd = Rm) THEN
+      ForwardB <= "01";    
+    ELSE
+      ForwardB <= "00";   
+    END IF;
+  END PROCESS;
+END behavioral;

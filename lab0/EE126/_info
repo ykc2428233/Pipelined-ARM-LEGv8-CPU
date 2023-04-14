@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/kyang10/EE126/lab0
+T_opt
+!s110 1663350184
+VZXkSzKzQl0W>gN^OeXi_43
+04 7 2 work and2_tb tb 1
+=1-005056000004-6324b5a8-9416a-1743ee
+o-quiet -auto_acc_if_foreign -work EE126 +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+Eand2
+Z1 w1663267143
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z4 8/h/kyang10/EE126/lab0/and2.vhd
+Z5 F/h/kyang10/EE126/lab0/and2.vhd
+l0
+L4
+VZ1NNI9H2K6GaGJ3Q>d1TS0
+!s100 J5zo?lhm8a:E84e84fh1V2
+Z6 OL;C;10.7c;67
+32
+Z7 !s110 1663353918
+!i10b 1
+Z8 !s108 1663353918.000000
+Z9 !s90 -reportprogress|300|-work|EE126|-2002|-explicit|-vopt|-stats=none|/h/kyang10/EE126/lab0/and2.vhd|
+!s107 /h/kyang10/EE126/lab0/and2.vhd|
+!i113 0
+Z10 o-work EE126 -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Adataflow
+R2
+R3
+Z12 DEx4 work 4 and2 0 22 Z1NNI9H2K6GaGJ3Q>d1TS0
+l13
+L12
+Z13 Vh;^?]4YWegC<R1>7I:[Bh1
+Z14 !s100 WO;PEzEl37YiWa=he=Hm]0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z15 !s107 /h/kyang10/EE126/lab0/and2.vhd|
+!i113 0
+R10
+R11
+Eand2_tb
+Z16 w1663268428
+R2
+R3
+R0
+Z17 8/h/kyang10/EE126/lab0/and2_tb.vhd
+Z18 F/h/kyang10/EE126/lab0/and2_tb.vhd
+l0
+L4
+V^_NI`VAKL9?NiPO2;0Fj30
+!s100 MN=ZS49BQX891K0Ti:J:G2
+R6
+32
+R7
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|-work|EE126|-2002|-explicit|-vopt|-stats=none|/h/kyang10/EE126/lab0/and2_tb.vhd|
+Z20 !s107 /h/kyang10/EE126/lab0/and2_tb.vhd|
+!i113 0
+R10
+R11
+Atb
+R2
+R3
+DEx4 work 7 and2_tb 0 22 ^_NI`VAKL9?NiPO2;0Fj30
+l18
+L7
+V[kWj;b=cddEb>kP_A[B=T1
+!s100 ]O?OiULYKRz:F;;>N6z5X3
+R6
+32
+R7
+!i10b 1
+R8
+R19
+R20
+!i113 0
+R10
+R11
