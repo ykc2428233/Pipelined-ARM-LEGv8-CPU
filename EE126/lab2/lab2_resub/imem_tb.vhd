@@ -1,0 +1,36 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY IMEM_tb is
+END IMEM_tb;
+
+ARCHITECTURE tb OF IMEM_tb is
+  COMPONENT IMEM
+  PORT(
+	  Address  : in  STD_LOGIC_VECTOR(63 downto 0); -- Address to read from
+     	  ReadData : out STD_LOGIC_VECTOR(31 downto 0)
+	);
+  END COMPONENT;
+  SIGNAL Address : STD_LOGIC_VECTOR(63 downto 0);
+  SIGNAL ReadData : STD_LOGIC_VECTOR(31 downto 0);
+
+BEGIN
+  UUT : IMEM PORT MAP(
+	  Address => Address,
+	  ReadData => ReadData
+	);
+  stim_proc: PROCESS
+    BEGIN
+    Address <= x"0000000000000000";
+      WAIT FOR 100 ns;
+    Address <= x"0000000000000010";
+      WAIT FOR 100 ns;
+    Address <= x"0000000000000020";
+      WAIT FOR 100 ns;
+    Address <= x"0000000000000088";
+      WAIT FOR 100 ns;
+    WAIT;
+    END PROCESS;
+
+END tb;

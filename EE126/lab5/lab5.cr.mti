@@ -1,0 +1,255 @@
+/h/kyang10/EE126/lab5/shiftleft2.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/shiftleft2.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ShiftLeft2
+-- Compiling architecture dataflow of ShiftLeft2
+
+} {} {}} /h/kyang10/EE126/lab5/lab5_imem.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/lab5_imem.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab5/pc.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/pc.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC
+-- Compiling architecture behavioral of PC
+
+} {} {}} /h/kyang10/EE126/lab5/muxcontrol.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/muxcontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUXControl
+-- Compiling architecture behavioral of MUXControl
+
+} {} {}} /h/kyang10/EE126/lab5/alucontrol.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/alucontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl
+-- Compiling architecture behavioral of ALUControl
+
+} {} {}} /h/kyang10/EE126/lab5/test_nop.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/test_nop.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IMEM
+-- Compiling architecture behavioral of IMEM
+
+} {} {}} /h/kyang10/EE126/lab5/mux64.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/mux64.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX64
+-- Compiling architecture behavioral of MUX64
+
+} {} {}} /h/kyang10/EE126/lab5/lab5_dmem.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/lab5_dmem.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DMEM
+-- Compiling architecture behavioral of DMEM
+
+} {} {}} /h/kyang10/EE126/lab5/mux5.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/mux5.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX5
+-- Compiling architecture behavioral of MUX5
+
+} {} {}} /h/kyang10/EE126/lab5/reg_EXMEM.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/reg_EXMEM.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegEXMEM
+-- Compiling architecture behavioral of RegEXMEM
+
+} {} {}} /h/kyang10/EE126/lab5/hazarddetection.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/hazarddetection.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HazardDetection
+-- Compiling architecture behavioral of HazardDetection
+
+} {} {}} /h/kyang10/EE126/lab5/cpucontrol.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/cpucontrol.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CPUControl
+-- Compiling architecture behavioral of CPUControl
+
+} {} {}} /h/kyang10/EE126/lab5/half_adder.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/half_adder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER
+-- Compiling architecture structural_example of HALF_ADDER
+-- Compiling architecture structural_example1 of HALF_ADDER
+-- Loading entity HALF_ADDER
+-- Compiling architecture structural_example2 of HALF_ADDER
+-- Loading entity HALF_ADDER
+-- Loading entity XOR_GATE
+
+} {} {}} /h/kyang10/EE126/lab5/adder64.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/adder64.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADDER64
+-- Compiling architecture structural_example of ADDER64
+
+} {} {}} /h/kyang10/EE126/lab5/alu.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/alu.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+-- Loading entity ADDER64
+
+} {} {}} /h/kyang10/EE126/lab5/forwarding.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/forwarding.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FORWARDING
+-- Compiling architecture behavioral of FORWARDING
+
+} {} {}} /h/kyang10/EE126/lab5/pipelinedcpu1.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/pipelinedcpu1.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PipelinedCPU1
+-- Compiling architecture PipelinedCPU1_arch of PipelinedCPU1
+-- Loading entity MUX64
+-- Loading entity PC
+-- Loading entity ADDER64
+-- Loading package NUMERIC_STD
+-- Loading entity IMEM
+-- Loading entity RegIFID
+-- Loading entity MUX5
+-- Loading entity CPUControl
+-- Loading entity registers
+-- Loading entity SignExtend
+-- Loading entity HazardDetection
+-- Loading entity MUXControl
+-- Loading entity RegIDEX
+-- Loading entity ShiftLeft2
+-- Loading entity ALUControl
+-- Loading entity FORWARDING
+-- Loading entity MUX64321
+-- Loading entity ALU
+-- Loading entity RegEXMEM
+-- Loading entity DMEM
+-- Loading entity RegMEMWB
+
+} {} {}} /h/kyang10/EE126/lab5/reg_MEMWB.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/reg_MEMWB.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegMEMWB
+-- Compiling architecture behavioral of RegMEMWB
+
+} {} {}} /h/kyang10/EE126/lab5/reg_IDEX.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/reg_IDEX.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegIDEX
+-- Compiling architecture behavioral of RegIDEX
+
+} {} {}} /h/kyang10/EE126/lab5/registers.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/registers.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers
+-- Compiling architecture behavioral of registers
+
+} {} {}} /h/kyang10/EE126/lab5/pipelinedcpu1_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/pipelinedcpu1_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PipelinedCPU1_tb
+-- Compiling architecture tb of PipelinedCPU1_tb
+-- Loading entity PipelinedCPU1
+
+} {} {}} /h/kyang10/EE126/lab5/add.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/add.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADD
+-- Compiling architecture structural_example of ADD
+-- Loading entity ADDER64
+
+} {} {}} /h/kyang10/EE126/lab5/reg_IFID.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/reg_IFID.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegIFID
+-- Compiling architecture behavioral of RegIFID
+
+} {} {}} /h/kyang10/EE126/lab5/signextend.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/signextend.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend
+-- Compiling architecture behavioral of SignExtend
+
+} {} {}} /h/kyang10/EE126/lab5/xorgate.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/xorgate.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity XOR_GATE
+-- Compiling architecture data_flow_example of XOR_GATE
+-- Compiling architecture behavioural_example of XOR_GATE
+-- Loading entity XOR_GATE
+
+} {} {}} /h/kyang10/EE126/lab5/full_adder.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/full_adder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FULL_ADDER
+-- Compiling architecture structural_example of FULL_ADDER
+
+} {} {}} /h/kyang10/EE126/lab5/mux64_3to1.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab5/mux64_3to1.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX64321
+-- Compiling architecture behavioral of MUX64321
+
+} {} {}}

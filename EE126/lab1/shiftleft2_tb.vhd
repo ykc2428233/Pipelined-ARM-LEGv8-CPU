@@ -1,0 +1,28 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY ShiftLeft2_tb IS
+END ShiftLeft2_tb;
+
+ARCHITECTURE tb OF ShiftLeft2_tb IS
+  COMPONENT ShiftLeft2
+  PORT(
+       x : IN STD_LOGIC_VECTOR(63 DOWNTO 0);
+       y : OUT STD_LOGIC_VECTOR(63 DOWNTO 0)
+  );
+  END COMPONENT;
+  SIGNAL x : STD_LOGIC_VECTOR(63 DOWNTO 0);
+  SIGNAL y : STD_LOGIC_VECTOR(63 DOWNTO 0);
+BEGIN
+  UUT : ShiftLeft2 PORT MAP(
+		  x => x,
+		  y => y	
+		);
+stim_proc: PROCESS
+  BEGIN
+  x <= x"3FFFFFFFFFFFFFF3";
+    WAIT FOR 100 ns;
+    WAIT;
+  END PROCESS;
+
+END tb;

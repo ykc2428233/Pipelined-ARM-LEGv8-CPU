@@ -1,0 +1,61 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project LAB1
+# reading /usr/cots/mentor/questa/questasim/linux_x86_64/../modelsim.ini
+# Loading project LAB2
+# Compile of add.vhd failed with 3 errors.
+# Compile of add_tb.vhd was successful.
+# Compile of adder64.vhd was successful.
+# Compile of adder64_tb.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of alu_tb.vhd was successful.
+# Compile of alucontrol.vhd was successful.
+# Compile of alucontrol_tb.vhd was successful.
+# Compile of cpucontrol.vhd was successful.
+# Compile of cpucontrol_tb.vhd was successful.
+# Compile of deme_tb.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+# Compile of half_adder.vhd failed with 3 errors.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of imem_tb.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of registers_tb.vhd was successful.
+# Compile of xorgate.vhd was successful.
+# 21 compiles, 2 failed with 6 errors.
+# Compile of add.vhd was successful.
+# Compile of add_tb.vhd was successful.
+# Compile of adder64.vhd was successful.
+# Compile of adder64_tb.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of alu_tb.vhd was successful.
+# Compile of alucontrol.vhd was successful.
+# Compile of alucontrol_tb.vhd was successful.
+# Compile of cpucontrol.vhd was successful.
+# Compile of cpucontrol_tb.vhd was successful.
+# Compile of deme_tb.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_tb.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of imem_tb.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of registers_tb.vhd was successful.
+# Compile of xorgate.vhd was successful.
+# 21 compiles, 0 failed with no errors.

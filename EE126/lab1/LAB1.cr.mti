@@ -1,0 +1,97 @@
+/h/kyang10/EE126/lab1/mux5.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/mux5.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX5
+-- Compiling architecture behavioral of MUX5
+
+} {} {}} /h/kyang10/EE126/lab1/pc_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/pc_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC_tb
+-- Compiling architecture tb of PC_tb
+
+} {} {}} /h/kyang10/EE126/lab1/shiftleft2_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/shiftleft2_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ShiftLeft2_tb
+-- Compiling architecture tb of ShiftLeft2_tb
+
+} {} {}} /h/kyang10/EE126/lab1/mux5_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/mux5_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX5_tb
+-- Compiling architecture tb of MUX5_tb
+
+} {} {}} /h/kyang10/EE126/lab1/and2.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/and2.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND2
+-- Compiling architecture dataflow of AND2
+
+} {} {}} /h/kyang10/EE126/lab1/mux64_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/mux64_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX64_tb
+-- Compiling architecture tb of MUX64_tb
+
+} {} {}} /h/kyang10/EE126/lab1/signextend.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/signextend.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend
+-- Compiling architecture behavioral of SignExtend
+
+} {} {}} /h/kyang10/EE126/lab1/and2_tb.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/and2_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND2_tb
+-- Compiling architecture tb of AND2_tb
+
+} {} {}} /h/kyang10/EE126/lab1/shiftleft2.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/shiftleft2.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ShiftLeft2
+-- Compiling architecture dataflow of ShiftLeft2
+
+} {} {}} /h/kyang10/EE126/lab1/pc.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/pc.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC
+-- Compiling architecture behavioral of PC
+
+} {} {}} /h/kyang10/EE126/lab1/mux64.vhd {1 {vcom -work EE126 -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/mux64.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX64
+-- Compiling architecture behavioral of MUX64
+
+} {} {}} /h/kyang10/EE126/lab1/signextend_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab1/signextend_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend_tb
+-- Compiling architecture tb of SignExtend_tb
+
+} {} {}}

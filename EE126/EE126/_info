@@ -1,0 +1,126 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/kyang10
+T_opt
+!s110 1663087585
+Va=Y;d]OFTD0mEg>jGY4l<2
+04 4 13 work and2 and2_behavior 1
+=1-005056000007-6320b3e0-5d74a-3d5ae8
+o-quiet -auto_acc_if_foreign -work EE126
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1663268483
+VkI?`Cj?b3lF[CA5]C@lLJ0
+04 7 2 work and2_tb tb 1
+=1-005056000003-63237682-7e498-48c3a
+o-quiet -auto_acc_if_foreign -work EE126 +acc
+R1
+n@_opt1
+R2
+Eand2
+Z3 w1663267143
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z6 d/h/kyang10/EE126
+Z7 8/h/kyang10/EE126/AND2.vhd
+Z8 F/h/kyang10/EE126/AND2.vhd
+l0
+L4
+VZ1NNI9H2K6GaGJ3Q>d1TS0
+!s100 J5zo?lhm8a:E84e84fh1V2
+Z9 OL;C;10.7c;67
+32
+Z10 !s110 1663268461
+!i10b 1
+Z11 !s108 1663268461.000000
+Z12 !s90 -reportprogress|300|-work|EE126|-2002|-explicit|-vopt|-stats=none|/h/kyang10/EE126/AND2.vhd|
+Z13 !s107 /h/kyang10/EE126/AND2.vhd|
+!i113 0
+Z14 o-work EE126 -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Adataflow
+R4
+R5
+DEx4 work 4 and2 0 22 Z1NNI9H2K6GaGJ3Q>d1TS0
+l13
+L12
+Vh;^?]4YWegC<R1>7I:[Bh1
+!s100 WO;PEzEl37YiWa=he=Hm]0
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aand2_behavior
+R4
+R5
+DEx4 work 4 and2 0 22 Si7om>3G=[B;5ZiGBfm[M0
+l13
+L12
+Vi6_T0ZG6]2JfClOWz6_AA1
+!s100 MHnzNT6`K>=9?GChB`BI50
+R9
+32
+!s110 1663087558
+!i10b 1
+!s108 1663087558.000000
+R12
+R13
+!i113 0
+R14
+R15
+w1663087555
+Eand2_tb
+Z16 w1663268428
+R4
+R5
+R6
+Z17 8/h/kyang10/EE126/and2_tb.vhd
+Z18 F/h/kyang10/EE126/and2_tb.vhd
+l0
+L4
+V:59Te4bZ<ajz@P7n5A9m03
+!s100 MN=ZS49BQX891K0Ti:J:G2
+R9
+32
+Z19 !s110 1663268462
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/h/kyang10/EE126/and2_tb.vhd|
+Z21 !s107 /h/kyang10/EE126/and2_tb.vhd|
+!i113 0
+Z22 o-work work -2002 -explicit
+R15
+Atb
+R4
+R5
+DEx4 work 7 and2_tb 0 22 :59Te4bZ<ajz@P7n5A9m03
+l18
+L7
+V>ba:Kg>AHW`>13jo79O?[2
+!s100 ]O?OiULYKRz:F;;>N6z5X3
+R9
+32
+R19
+!i10b 1
+R11
+R20
+R21
+!i113 0
+R22
+R15

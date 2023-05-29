@@ -1,0 +1,11 @@
+/h/kyang10/EE126/lab0/AND2.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab0/AND2.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+** Error (suppressible): (vcom-19) Failed to access library './EE126' at "./EE126".
+No such file or directory. (errno = ENOENT)
+
+} {} {}} /h/kyang10/EE126/lab0/and2_tb.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /h/kyang10/EE126/lab0/and2_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+** Error (suppressible): (vcom-19) Failed to access library './EE126' at "./EE126".
+No such file or directory. (errno = ENOENT)
+
+} {} {}}

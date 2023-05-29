@@ -1,0 +1,157 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+entity SingleCycleCPU is
+port(clk :in STD_LOGIC;
+     rst :in STD_LOGIC;
+     --Probe ports used for testing
+     --The current address (AddressOut from the PC)
+     DEBUG_PC : out STD_LOGIC_VECTOR(63 downto 0);
+     --The current instruction (Instruction output of IMEM)
+     DEBUG_INSTRUCTION : out STD_LOGIC_VECTOR(31 downto 0);
+     --DEBUG ports from other components
+     DEBUG_TMP_REGS : out STD_LOGIC_VECTOR(64*4 - 1 downto 0);
+     DEBUG_SAVED_REGS : out STD_LOGIC_VECTOR(64*4 - 1 downto 0);
+     DEBUG_MEM_CONTENTS : out STD_LOGIC_VECTOR(64*4 - 1 downto 0)
+);
+end SingleCycleCPU;
+	
+ARCHITECTURE SingleCycleCPU_arch OF SingleCycleCPU IS
+SIGNAL PCAddressIn_MuxOut : STD_LOGIC_VECTOR(63 DOWNTO 0); --2 ok
+SIGNAL AddALU_Mux641 : STD_LOGIC_VECTOR(63 DOWNTO 0); --2 ok
+SIGNAL Mux640_PCAddOut : STD_LOGIC_VECTOR(63 DOWNTO 0); --2 ok
+SIGNAL PCOut_IMEMRead_PCAddA_ADDALUA : STD_LOGIC_VECTOR(63 DOWNTO 0); --4 ok
+SIGNAL AdderALUB_ShiftLeftY : STD_LOGIC_VECTOR(63 DOWNTO 0); --2 ok
+SIGNAL Instructions : STD_LOGIC_VECTOR(31 DOWNTO 0); --8 ?
+SIGNAL MUX5Out_RegRead2 : STD_LOGIC_VECTOR(5 DOWNTO 0); --2 ok
+SIGNAL MUX64Out_RegWData : STD_LOGIC_VECTOR(64 DOWNTO 0); --2 
+
+BEGIN
+
+  PC : ENTITY work.PC 
+    PORT MAP(
+	clk => clk,
+	write_enable => , 
+	rst => rst,
+	AddressIn => PCAddressIn_MuxOut,
+	AddressOut => PCOut_IMEMRead_PCAddA_ADDALUA
+    );	
+ 
+  PCMUX64 : ENTITY work.MUX64 
+    PORT MAP(
+	in0 => Mux640_PCAddOut,
+	in1 => AddALU_Mux641,
+	sel => ,
+	output => PCAddressIn_MuxOut
+    );
+	
+  PC_ADDer : ENTITY work.ADDER64
+    PORT MAP(
+	Cin => '0',
+	A => PCOut_IMEMRead_PCAddA_ADDALUA,
+	B => x"0000000000000004",
+	Sum => Mux640_PCAddOut,
+	Cout => OPEN
+    );
+
+  ALU_ADDer : ENTITY work.ADDER64
+    PORT MAP(
+	Cin => '0',
+	A => PCOut_IMEMRead_PCAddA_ADDALUA,
+	B => AdderALUB_ShiftLeftY,
+	Sum => AddALU_Mux641,
+	Cout => OPEN
+    );
+
+  Shift_left_2 : ENTITY work.ShiftLeft2 
+    PORT MAP(
+	x => ,
+	y => AdderALUB_ShiftLeftY
+    );
+
+  Sign_Extend : ENTITY work.SignExtend 
+    PORT MAP(
+	x => Instructions,
+	y =>
+    );
+
+  ALU_Control : ENTITY work.ALUControl 
+    PORT MAP(
+	ALUOp => Instructions(31 DOWNTO 21),
+	Opcode => ,
+	Operation => 
+    );
+
+  CPU_Control : ENTITY work.CPUControl
+    PORT MAP(
+	Opcode => Instructions(31 DOWNTO 21),
+	Reg2Loc => ,
+	MemRead => ,
+	MemtoReg => ,
+	MemWrite => ,
+	ALUSrc => ,
+	RegWrite => ,
+	UBranch => ,
+	ALUOp => 
+    );
+
+  MUX5_RegIn : ENTITY work.MUX5
+    PORT MAP(
+	in0 => Instructions(20 DOWNTO 16),
+	in1 => Instructions(4 DOWNTO 0),
+	sel => ,
+	output => MUX5Out_RegRead2
+    );
+
+  Regs : ENTITY work.registers
+    PORT MAP(
+	RR1 => Instructions(9 DOWNTO 5),
+	RR2 => MUX5Out_RegRead2,
+	WR => Instructions(4 DOWNTO 0),
+	WD => MUX64Out_RegWData,
+	RegWrite => ,
+	Clock => clk,
+	RD1 => ,
+	RD2 => ,
+	DEBUG_TMP_REGS => ,
+	DEBUG_SAVED_REGS => 
+    );
+
+  MUX64_RegOut : ENTITY work.MUX64
+    PORT MAP(
+	in0 => ,
+	in1 => ,
+	sel => ,
+	output =>
+    );
+  
+  MUX64_DMEMOut : ENTITY work.MUX64
+    PORT MAP(
+	in0 => ,
+	in1 => ,
+	sel => ,
+	output => MUX64Out_RegWData
+    );
+
+  Data_MEM : ENTITY work.DMEM
+    --GENERIC(NUM_BYTE : INTEGER := 1024);
+    PORT MAP(
+	WriteData => ,
+	Address => ,
+	MemRead => ,
+	MemWrite => ,
+	Clock => clk,
+	ReadData => ,
+	DEBUG_MEM_CONTENTS =>
+    );
+
+  Instruction_MEM : ENTITY work.IMEM
+    --GENERIC(NUM_BYTE : INTEGER := 128);
+    PORT MAP(
+	Address => PCOut_IMEMRead_PCAddA_ADDALUA,
+	ReadData => Instructions
+    );
+
+
+  
+END SingleCycleCPU_arch;

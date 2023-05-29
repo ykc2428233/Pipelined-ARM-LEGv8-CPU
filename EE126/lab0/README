@@ -1,0 +1,4 @@
+Lab0 Readme
+and2.vhd is the implamentation of my AND2 gate.
+and2_tb.vhd is the testbench for AND2 gate. To run the testbench, run "run -all", we can get the wave changes in the first 200 ns.
+EE_126_Lab_0_report.pdf is my report.

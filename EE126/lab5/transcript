@@ -1,0 +1,743 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project lab5
+# Compile of xorgate.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of adder64.vhd was successful.
+# Compile of add.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of alucontrol.vhd was successful.
+# Compile of cpucontrol.vhd was successful.
+# Compile of forwarding.vhd was successful.
+# Compile of hazarddetection.vhd was successful.
+# Compile of mux5.vhd was successful.
+# Compile of mux64.vhd was successful.
+# Compile of mux64_3to1.vhd was successful.
+# Compile of muxcontrol.vhd was successful.
+# Compile of pc.vhd was successful.
+# Compile of lab5_dmem.vhd was successful.
+# Compile of reg_EXMEM.vhd was successful.
+# Compile of reg_IDEX.vhd was successful.
+# Compile of reg_IFID.vhd was successful.
+# Compile of reg_MEMWB.vhd was successful.
+# Compile of lab5_imem.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of shiftleft2.vhd was successful.
+# Compile of signextend.vhd was successful.
+# Compile of pipelinedcpu1.vhd was successful.
+# Compile of test_nop.vhd was successful.
+# Compile of pipelinedcpu1_tb.vhd was successful.
+# 27 compiles, 0 failed with no errors.
+# Compile of lab5_imem.vhd was successful.
+vsim work.pipelinedcpu1_tb -voptargs=+acc
+# vsim work.pipelinedcpu1_tb -voptargs="+acc" 
+# Start time: 12:10:14 on Dec 04,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pipelinedcpu1_tb(tb)#1
+# Loading work.pipelinedcpu1(pipelinedcpu1_arch)#1
+# Loading work.mux64(behavioral)#1
+# Loading work.pc(behavioral)#1
+# Loading work.adder64(structural_example)#1
+# Loading work.full_adder(structural_example)#1
+# Loading work.half_adder(structural_example2)#1
+# Loading work.xor_gate(behavioural_example)#1
+# Loading work.imem(behavioral)#1
+# Loading work.regifid(behavioral)#1
+# Loading work.mux5(behavioral)#1
+# Loading work.cpucontrol(behavioral)#1
+# Loading work.registers(behavioral)#1
+# Loading work.signextend(behavioral)#1
+# Loading work.hazarddetection(behavioral)#1
+# Loading work.muxcontrol(behavioral)#1
+# Loading work.regidex(behavioral)#1
+# Loading work.shiftleft2(dataflow)#1
+# Loading work.alucontrol(behavioral)#1
+# Loading work.forwarding(behavioral)#1
+# Loading work.mux64321(behavioral)#1
+# Loading work.alu(structural)#1
+# Loading work.regexmem(behavioral)#1
+# Loading work.dmem(behavioral)#1
+# Loading work.regmemwb(behavioral)#1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Note: IM LOAD
+#    Time: 100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/CPU_Control
+# ** Note: IM STORE
+#    Time: 600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/CPU_Control
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 64 but only 64 bytes are available
+#    Time: 1700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 68 but only 64 bytes are available
+#    Time: 1800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 72 but only 64 bytes are available
+#    Time: 1900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 76 but only 64 bytes are available
+#    Time: 2 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 80 but only 64 bytes are available
+#    Time: 2100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 84 but only 64 bytes are available
+#    Time: 2200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 88 but only 64 bytes are available
+#    Time: 2300 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 92 but only 64 bytes are available
+#    Time: 2400 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 96 but only 64 bytes are available
+#    Time: 2500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 100 but only 64 bytes are available
+#    Time: 2600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 104 but only 64 bytes are available
+#    Time: 2700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 108 but only 64 bytes are available
+#    Time: 2800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 112 but only 64 bytes are available
+#    Time: 2900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 116 but only 64 bytes are available
+#    Time: 3 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+add wave -position insertpoint  \
+sim:/pipelinedcpu1_tb/clk \
+sim:/pipelinedcpu1_tb/rst \
+sim:/pipelinedcpu1_tb/DEBUG_PC \
+sim:/pipelinedcpu1_tb/DEBUG_INSTRUCTION \
+sim:/pipelinedcpu1_tb/DEBUG_TMP_REGS \
+sim:/pipelinedcpu1_tb/DEBUG_SAVED_REGS \
+sim:/pipelinedcpu1_tb/DEBUG_MEM_CONTENTS \
+sim:/pipelinedcpu1_tb/DEBUG_FORWARDA \
+sim:/pipelinedcpu1_tb/DEBUG_FORWARDB \
+sim:/pipelinedcpu1_tb/DEBUG_PC_WRITE_ENABLE
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 120 but only 64 bytes are available
+#    Time: 3100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 124 but only 64 bytes are available
+#    Time: 3200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 128 but only 64 bytes are available
+#    Time: 3300 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 132 but only 64 bytes are available
+#    Time: 3400 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 136 but only 64 bytes are available
+#    Time: 3500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 140 but only 64 bytes are available
+#    Time: 3600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 144 but only 64 bytes are available
+#    Time: 3700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 148 but only 64 bytes are available
+#    Time: 3800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 152 but only 64 bytes are available
+#    Time: 3900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 156 but only 64 bytes are available
+#    Time: 4 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 160 but only 64 bytes are available
+#    Time: 4100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 164 but only 64 bytes are available
+#    Time: 4200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 168 but only 64 bytes are available
+#    Time: 4300 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 172 but only 64 bytes are available
+#    Time: 4400 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 176 but only 64 bytes are available
+#    Time: 4500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 180 but only 64 bytes are available
+#    Time: 4600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 184 but only 64 bytes are available
+#    Time: 4700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 188 but only 64 bytes are available
+#    Time: 4800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 192 but only 64 bytes are available
+#    Time: 4900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 196 but only 64 bytes are available
+#    Time: 5 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 200 but only 64 bytes are available
+#    Time: 5100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 204 but only 64 bytes are available
+#    Time: 5200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 208 but only 64 bytes are available
+#    Time: 5300 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 212 but only 64 bytes are available
+#    Time: 5400 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 216 but only 64 bytes are available
+#    Time: 5500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 220 but only 64 bytes are available
+#    Time: 5600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 224 but only 64 bytes are available
+#    Time: 5700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 228 but only 64 bytes are available
+#    Time: 5800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 232 but only 64 bytes are available
+#    Time: 5900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 236 but only 64 bytes are available
+#    Time: 6 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Note: IM LOAD
+#    Time: 100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/CPU_Control
+# ** Note: IM STORE
+#    Time: 600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/CPU_Control
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 64 but only 64 bytes are available
+#    Time: 1700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 68 but only 64 bytes are available
+#    Time: 1800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 72 but only 64 bytes are available
+#    Time: 1900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 76 but only 64 bytes are available
+#    Time: 2 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 80 but only 64 bytes are available
+#    Time: 2100 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2150 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 84 but only 64 bytes are available
+#    Time: 2200 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2250 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2300 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 88 but only 64 bytes are available
+#    Time: 2300 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2350 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2400 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 92 but only 64 bytes are available
+#    Time: 2400 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2450 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2500 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 96 but only 64 bytes are available
+#    Time: 2500 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2550 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2600 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 100 but only 64 bytes are available
+#    Time: 2600 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2650 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2700 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 104 but only 64 bytes are available
+#    Time: 2700 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2750 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2800 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 108 but only 64 bytes are available
+#    Time: 2800 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2850 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2900 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 112 but only 64 bytes are available
+#    Time: 2900 ns  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2950 ns  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 us  Iteration: 1  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Regs
+# ** Error: Invalid IMEM addr. Attempted to read 4-bytes starting at address 116 but only 64 bytes are available
+#    Time: 3 us  Iteration: 2  Instance: /pipelinedcpu1_tb/Pipelined_CPU/Instruction_MEM
+# End time: 12:15:54 on Dec 04,2022, Elapsed time: 0:05:40
+# Errors: 14, Warnings: 71
